@@ -1,0 +1,14 @@
+name: Check SecureShip
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Get project files
+        uses: actions/checkout@v4
+      - name: Check that the webpage exists
+        run: test -f index.html
