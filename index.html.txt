@@ -1,0 +1,12 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SecureShip</title>
+</head>
+<body>
+  <h1>Welcome to SecureShip</h1>
+  <p>My first step toward learning DevOps and DevSecOps.</p>
+</body>
+</html>
